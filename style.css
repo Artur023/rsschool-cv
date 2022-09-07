@@ -1,0 +1,239 @@
+* {
+    position: relative;
+    background-color: #1D262D;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 850px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+        text-align: center;
+    }
+}
+
+/* @media(max-width: 700px) {
+    main {
+        margin: auto;
+    }
+} */
+
+header ul li {
+    padding: 20px;
+    transition: 5s liner;
+    font-size: 180%;
+
+}
+
+a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: rgb(134, 230, 198);
+}
+
+a:hover {
+    background: purple;
+    font-size: 120%;
+}
+
+/* img */
+.div-img-my-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.my-photo {
+    height: 45%;
+    width: 45%;
+    border-radius: 5%;
+    margin-top: 1%;
+}
+
+@media(min-width: 500px) {
+    .my-photo {
+        width: 200px;
+        height: 250px;
+    }
+}
+
+/* h1 */
+.hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.text-front {
+    font-size: 230%;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+/* section */
+section {
+    margin-top: 40%;
+    font-size: 190%;
+    line-height: 250%;
+
+}
+
+.first-section {
+    margin-top: 1%;
+}
+
+.first-section ul {
+    list-style: none;
+}
+
+/* skills */
+
+
+/* code */
+
+#code {
+    line-height: 150%;
+}
+
+.my-code {
+    text-align: center;
+}
+
+/* code colors */
+code span {
+    font-family: 'Courier New', Courier, monospace
+}
+
+.green {
+    color: green;
+
+}
+
+.turquoise {
+    color: rgb(50, 179, 244);
+}
+
+.blue {
+    color: rgb(46, 115, 184)
+}
+
+.blue2 {
+    color: rgb(7, 64, 234);
+}
+
+.yellow {
+    color: rgb(244, 244, 148)
+}
+
+.violet {
+    color: rgb(137, 0, 137);
+}
+
+
+/* project */
+.project-description {
+    padding: 1%;
+    font-size: 100%;
+    text-align: center;
+}
+
+@media(max-width: 850px) {
+    ul.project-list {
+        flex-direction: column;
+    }
+
+    .project-list_item {
+        width: 50%;
+        height: 50%;
+    }
+
+    .project-description {
+        font-size: 50%;
+    }
+
+}
+
+ul.project-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin-top: 0;
+}
+
+
+.project-list_item a img {
+    width: 99%;
+    height: 99%;
+}
+
+/* footer */
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 150%;
+}
+
+li.my-github a {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.my-github img {
+    width: 200px;
+    height: 200px;
+}
+
+@media(max-width: 600px) {
+    footer ul {
+        flex-direction: column;
+    }
+
+    li.my-github a {
+        position: relative;
+    }
+
+    .my-github img {
+        width: 50%;
+        height: 50%;
+    }
+
+    .rs-school-logo img {
+        width: 50%;
+        height: 50%;
+    }
+}
+
+/* back to top */
+.up {
+    position: relative;
+    font-size: 200%;
+    text-align: center;
+}
+
+.up a p {
+    margin-top: 2px;
+}
